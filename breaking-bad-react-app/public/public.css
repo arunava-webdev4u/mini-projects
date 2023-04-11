@@ -1,0 +1,8 @@
+body {
+    /* font-family: 'Aboreto', cursive; */
+    box-sizing: border-box;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 17%, rgba(29,68,29,1) 65%, rgba(27,119,27,1) 96%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}

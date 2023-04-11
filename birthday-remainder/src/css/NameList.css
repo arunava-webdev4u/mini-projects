@@ -1,0 +1,23 @@
+.display-card {
+    box-shadow: 5px 12px 35px -25px black;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 2em;
+    background-color: var(--today-color);
+}
+
+.display-cards-name, .display-cards-dob {
+    margin-left: 15px;
+}
+.display-cards-name {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+.display-cards-dob {
+    font-size: 13px;
+    color: rgb(80, 80, 80);
+}
+
+#not-same {
+    background-color: var(--upcoming-color);
+}

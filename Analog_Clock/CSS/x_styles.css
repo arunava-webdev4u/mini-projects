@@ -1,0 +1,77 @@
+body{
+    box-sizing: border-box;
+    background-color: rgb(147, 219, 241);
+}
+
+h1{
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    font-size: 3em;
+}
+header{
+    margin-bottom: 3.5%;
+}
+
+#clock{
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+    height: auto;
+}
+#clockImg{
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0px 0px 50px 0px black;
+}
+
+#hour, #minute, #second, #circle{
+    position: relative;
+
+}
+#hour{
+    height: 15.4%;
+    width: 1.5%;
+    top: 29.5%;
+    left: 49.2%;
+    border-radius: 8px;
+    background-color: pink;
+}
+/* #minute{
+    height: 17.4%;
+    width: 0.8%;
+    top: 27.5%;
+    left: 49.55%;
+    border-radius: 10px;
+    background-color: rgb(11, 224, 47);
+} 
+#second{
+    height: 25.4%;
+    width: 0.35%;
+    top: 24.5%;
+    left: 49.75%;
+    border-radius: 80%;
+    background-color: rgb(11, 15, 224);
+}
+#circle{
+    height: 25.4%;
+    width: 0.35%;
+    top: 24.5%;
+    left: 49.75%;
+    border-radius: 80%;
+    background-color: rgb(0, 0, 0); */
+}
+
+
+
+
+
+/* mobile screen with width 1080px and below*/
+@media screen and (max-width: 1080px){
+    h1{
+        font-size: 5em;
+    }
+    #clock{
+        width: 95%;
+    }
+}

@@ -1,0 +1,13 @@
+.header-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 25vh;
+}
+
+body{
+    color: white;
+}
